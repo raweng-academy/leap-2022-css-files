@@ -1,3 +1,9 @@
 .survey-form {
   border: 2px solid #2a0f57;
+  width: 60vw;
+  margin: auto;
+}
+
+.survey-form iframe {
+  width: 100%;
 }
