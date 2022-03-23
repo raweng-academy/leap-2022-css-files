@@ -1,6 +1,15 @@
+.cta-container {
+  margin: auto 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border: 2px solid black;
+}
+
 .cs-cta {
   display: block;
-  /* width: 15%; */
   font-family: Inter, sans-serif;
   font-weight: 800;
   font-size: 16px;
