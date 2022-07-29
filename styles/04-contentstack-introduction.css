@@ -1,0 +1,40 @@
+.card-container {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  height: 50vh;
+}
+.cs-card {
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  transition: all;
+  transition-delay: 0.5s;
+  transition-duration: 1s;
+}
+
+.cs-card img {
+  width: 60%;
+  margin: 0px;
+}
+.cs-card h4 {
+  margin: 10px;
+}
+
+.cs-card:hover {
+  transform: scale(1.2);
+}
+
+.cs-card-link {
+  text-decoration: none;
+  color: black;
+}
