@@ -35,6 +35,7 @@
 }
 .cs-card h4 {
   margin: 10px;
+  text-align: center;
 }
 
 .cs-card:hover {
